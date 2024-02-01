@@ -1,3 +1,17 @@
+body{
+  background-color: #CAD2C5;
+  height: 100%;
+  width: 100;
+}
+
+img{
+  height: 100%;
+  width:100%
+}
+
+
+
+
 .css-button-shadow-border-sliding--black {
   min-width: 130px;
   height: 40px;
@@ -11,8 +25,8 @@
   outline: none;
   border-radius: 5px;
   border: none;
-  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
-  background: #212529;
+  box-shadow: inset 2px 2px 2px 0px rgba(53, 79, 82, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
+  background: #354F52;
   z-index: 1;
 }
 
@@ -29,9 +43,9 @@
   height: 100%;
   top: 0;
   z-index: -1;
-  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
+  box-shadow: inset 2px 2px 2px 0px rgba(53, 79, 82, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
   transition: all 0.3s ease;
-  background-color: #343a40;
+  background-color: #354F52;
   right: 0;
 }
 
@@ -40,41 +54,41 @@
 }
 
 .btn1 {
-  border-radius: 5%;
+  border-radius: 25px;
   padding: 3rem;
-  background-color: #343a40;
+  background-color: #84A98C;
   color: #fff;
   text-align: center;
   margin:3rem;
 }
 .btn2 {
-  border-radius: 5%;
+  border-radius: 25px;
   padding: 3rem;
-  background-color: #042f5b;
+  background-color: #52796F;
   color: #fff;
   text-align: center;
   margin:3rem;
 }
 .btn3 {
-  border-radius: 5%;
+  border-radius: 25px;
   padding: 3rem;
-  background-color: #4b045b;
+  background-color: #2F3E46;
   color: #fff;
   text-align: center;
   margin:3rem;
 }
 .btn4 {
-  border-radius: 5%;
+  border-radius: 25px;
   padding: 3rem;
-  background-color: #7c0610;
+  background-color: #84A98C;
   color: #fff;
   text-align: center;
   margin:3rem;
 }
 .btn5 {
-  border-radius: 5%;
+  border-radius: 25px;
   padding: 3rem;
-  background-color: #06687c;
+  background-color: #52796F;
   color: #fff;
   text-align: center;
   margin:3rem;
