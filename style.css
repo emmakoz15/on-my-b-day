@@ -1,15 +1,33 @@
-body{
+body {
   background-color: #CAD2C5;
   height: 100%;
   width: 100;
 }
 
-img{
-  height: 100%;
-  width:100%
+.hero {
+  font-family: "anona", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  color: #354F52;
+  margin-top: 2rem;
+}
+h3{
+  font-family: "museo-sans-rounded", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  color: #2F3E46;
 }
 
+.meee{
+  border-radius:25px ;
+  margin:3rem
+  
+}
 
+button{
+  border: none;
+}
 
 
 .css-button-shadow-border-sliding--black {
@@ -56,40 +74,64 @@ img{
 .btn1 {
   border-radius: 25px;
   padding: 3rem;
-  background-color: #84A98C;
+  background-color: #2F3E46;
   color: #fff;
+  font-family: "museo-sans-rounded", sans-serif;
+  font-weight: 500;
+  font-style: normal;
   text-align: center;
-  margin:3rem;
+  margin: 3rem;
 }
+
 .btn2 {
   border-radius: 25px;
   padding: 3rem;
   background-color: #52796F;
   color: #fff;
+  font-family: "museo-sans-rounded", sans-serif;
+  font-weight: 500;
+  font-style: normal;
   text-align: center;
-  margin:3rem;
+  margin: 3rem;
 }
+
 .btn3 {
   border-radius: 25px;
   padding: 3rem;
   background-color: #2F3E46;
   color: #fff;
+  font-family: "museo-sans-rounded", sans-serif;
+  font-weight: 500;
+  font-style: normal;
   text-align: center;
-  margin:3rem;
+  margin: 3rem;
 }
+
 .btn4 {
-  border-radius: 25px;
-  padding: 3rem;
-  background-color: #84A98C;
-  color: #fff;
-  text-align: center;
-  margin:3rem;
-}
-.btn5 {
   border-radius: 25px;
   padding: 3rem;
   background-color: #52796F;
   color: #fff;
+  font-family: "museo-sans-rounded", sans-serif;
+  font-weight: 500;
+  font-style: normal;
   text-align: center;
-  margin:3rem;
+  margin: 3rem;
+}
+
+.btn5 {
+  border-radius: 25px;
+  padding: 3rem;
+  background-color: #2F3E46;
+  color: #fff;
+  font-family: "museo-sans-rounded", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  margin: 3rem;
+}
+
+img {
+  max-height: 20rem;
+  max-width: 30rem;
 }

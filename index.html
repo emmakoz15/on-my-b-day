@@ -6,6 +6,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!--fonts-->
+    <link rel="stylesheet" href="https://use.typekit.net/cvw5nkb.css">
 
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -18,14 +20,19 @@
 
         <!--hero-->
     <header>
-        <div class="row m-2 border rounded-3">
+        <div class="row m-2  rounded-3">
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-6 m-3 text-center bg-hero-image rounded-3">
                     <div class="d-flex justify-content-center align-items-center h-100">
                         <div class="text-black">
-                            <h1 class="mb-3">
+                           
+                            <h1 class=" hero mb-3">
                                 MARCH 15
                             </h1>
+                            <h3> On the greatest day ever Emma Kozlovsky was born! </h3>
+                            <button onclick="default1()" class = "col-12 col-lg-8 bg-transparent h-100" ><img class = "meee"src="images/Shutterfly.jpg"> </button>
+                            <hr>
+                            <p>Other things that happend on the best day ever</p>
                         </div>
                     </div>
                 </div>
@@ -43,8 +50,8 @@
             
 
             <button id="bn" onclick="change()" class="css-button-shadow-border-sliding--black  col-12 col-lg-8  h-100">
-                <h4 id="wawawa"> 1917 Czar Nicholas II of Russia abdicates</h4>
-                <img id="change1" src="images/cz.jpg">
+                <h4 id="bntext"> 1917 Czar Nicholas II of Russia abdicates</h4>
+                <img id="bnimg" src="">
             </button>
 
         </div>
@@ -53,11 +60,11 @@
         <!-- btn 1 end-->
 
           <!-- btn 2-->
-          <div id="bns" class="col-12 m-3  text-center align-items-center h-100">
+          <div  class="col-12 m-3  text-center align-items-center h-100">
             
 
             <button id="bns" onclick="nextChangeA()" class="css-button-shadow-border-sliding--black  col-12 col-lg-8  h-100" >
-                <h4> Button</h4>
+                <h4 id="bnstext"> 1985 The world's first internet domain name is registered. </h4>
                 <img id="bnsimg" src="">
             </button>
 
@@ -67,11 +74,11 @@
         <!-- btn 2 end-->
 
                   <!-- btn 3-->
-                  <div id="bnt" class="col-12 m-3  text-center align-items-center h-100">
+                  <div class="col-12 m-3  text-center align-items-center h-100">
             
 
                     <button id="bnt" onclick="nextChangeB()" class="css-button-shadow-border-sliding--black  col-12 col-lg-8  h-100" >
-                        <h4>Button</h4>
+                        <h4 id="bnttext">44 BCE Assassination of Julius Caesar </h4>
                         <img id="bntimg" src="">
                     </button>
         
@@ -84,11 +91,11 @@
 
 
                   <!-- btn 4-->
-                  <div id="bnf" class="col-12 m-3  text-center align-items-center h-100">
+                  <div  class="col-12 m-3  text-center align-items-center h-100">
             
 
                     <button id="bnf" onclick="nextChangeC()" class="css-button-shadow-border-sliding--black  col-12 col-lg-8  h-100" >
-                        <h4> Button</h4>
+                        <h4 id="bnftext"> 1972 The Godfather premiered</h4>
                         <img  id="bnfimg"src="">
                     </button>
         
@@ -98,12 +105,12 @@
                 <!-- btn 4 end-->
 
                   <!-- btn 5-->
-                  <div id="bnfi" class="col-12 m-3  text-center align-items-center h-100">
+                  <div class="col-12 m-3  text-center align-items-center h-100">
             
 
                     <button id="bnfi" onclick="nextChangeD()" class="css-button-shadow-border-sliding--black  col-12 col-lg-8  h-100" >
-                        <h4> Button</h4>
-                        <img id="bniimg" src="">
+                        <h4 id="bnfitext"> 1972 NASA selects 3 part configuration for Space Shuttle </h4>
+                        <img id="bnfiimg" src="">
                     </button>
         
                 </div>
@@ -117,6 +124,13 @@
 </div>
     <footer>
         <!-- place footer here -->
+        <footer class=" text-white text-center py-2 ">
+            <div class="container">
+                 <p>&copy; 2023 WDPP Level 2</p>
+                 <p> From the amazing work of Emma Kozlovsky</p>
+            </div>
+         </footer>
+     
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
